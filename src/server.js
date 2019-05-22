@@ -12,7 +12,7 @@ const resolvers = {
 const createServer = () => {
     return new GraphQLServer({
         // Public facing API
-        typeDefs: '/src/schema/graphql-yoga-schema.graphql',
+        typeDefs: 'src/schema/graphql-yoga-schema.graphql',
         resolvers,
         resolverValidationOptions: {
             requireResolversForResolveType: false,
